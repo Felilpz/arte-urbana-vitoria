@@ -70,6 +70,7 @@ a, i {
 #navbar a{
     width: 80px;
     color: #444;
+    text-align: center;
 }
 
 #navbar a:hover {
@@ -152,10 +153,6 @@ footer {
 
 footer i {
     font-size: 20px;
-}
-
-#social-icons-container {
-    padding: 25px;
 }
 
 #social-icons-container div {
