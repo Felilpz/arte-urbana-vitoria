@@ -84,7 +84,7 @@ a, i {
 /*Imagem principal*/
 .main-image {
     height: 400px;
-    background-image: url(img/imagem-vitoria.jpg);
+    background-image: url(/img/imagem-vitoria.jpg);
     margin-bottom: 30px;
     position: relative;
 }
@@ -101,36 +101,36 @@ a, i {
 /*Galeria*/
 
 #img1 {
-    background-image: url(img/ilha-do-principe.jpg);
+    background-image: url(/img/ilha-do-principe.jpg);
 }
 
 #img2 {
-    background-image: url(img/ilha-do-principe2.jpg);
+    background-image: url(/img/ilha-do-principe2.jpg);
 }
 
 #img3 {
-    background-image: url(img/imagem-vitoria.jpg);
+    background-image: url(/img/imagem-vitoria.jpg);
 }
 
 #img4 {
-    background-image: url(img/jardim-camburi.jpg);
+    background-image: url(/img/jardim-camburi.jpg);
 }
 
 #img5 {
-    background-image: url(img/ilha-do-principe3.jpg);
+    background-image: url(/img/ilha-do-principe3.jpg);
     
 }
 
 #img6 {
-    background-image: url(img/romao.jpeg);
+    background-image: url(/img/romao.jpeg);
 }
 
 #img7 {
-    background-image: url(img/vitoria-edificio-master-tower.jpg);
+    background-image: url(/img/vitoria-edificio-master-tower.jpg);
 }
 
 #img8 {
-    background-image: url(img/vitoria.jpg);
+    background-image: url(/img/vitoria.jpg);
 }
 
 #container-galeria h1 {
@@ -178,4 +178,61 @@ a {
 
 p > a:hover {
     color: #b18611;
+}
+
+/* Outras configurações */
+
+.alinhar {
+    text-align: center;
+}
+
+.alinhar img {
+    width: 200px;
+    height: 200px;
+    background-attachment: contain;
+}
+
+.estilosInside > p {
+    padding-top: 10px;
+}
+
+.estilosInside a:hover {
+    color: #b48605;
+}
+
+.aqiluciano {
+    background-image: linear-gradient(to left, grey, lightgrey);
+}
+
+/* Form */
+form {
+    text-align: center;
+}
+
+input, textarea {
+    padding: 10px;
+    width: 500px;
+}
+
+.btn-style {
+    margin-bottom: 40px;
+}
+
+/* Ilha do principe */
+.galeria-default {
+    text-align: center;
+}
+
+.galeria-default img {
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+/* Maria ortiz */
+.mbottom {
+    margin-bottom: 30px;
+}
+
+.mbottom {
+    width: 80%;
 }
