@@ -84,7 +84,7 @@ a, i {
 /*Imagem principal*/
 .main-image {
     height: 400px;
-    background-image: url(/img/imagem-vitoria.jpg);
+    background-image: url(../img/imagem-vitoria.jpg);
     margin-bottom: 30px;
     position: relative;
 }
@@ -101,36 +101,36 @@ a, i {
 /*Galeria*/
 
 #img1 {
-    background-image: url(/img/ilha-do-principe.jpg);
+    background-image: url(../img/ilha.jpg);
 }
 
 #img2 {
-    background-image: url(/img/ilha-do-principe2.jpg);
+    background-image: url(../img/ilha2.jpg);
 }
 
 #img3 {
-    background-image: url(/img/imagem-vitoria.jpg);
+    background-image: url(../img/imagem-vitoria.jpg);
 }
 
 #img4 {
-    background-image: url(/img/jardim-camburi.jpg);
+    background-image: url(../img/jardim-camburi.jpg);
 }
 
 #img5 {
-    background-image: url(/img/ilha-do-principe3.jpg);
+    background-image: url(../img/ilha3.jpg);
     
 }
 
 #img6 {
-    background-image: url(/img/romao.jpeg);
+    background-image: url(../img/romao.jpeg);
 }
 
 #img7 {
-    background-image: url(/img/vitoria-edificio-master-tower.jpg);
+    background-image: url(../img/vitoria-edificio-master-tower.jpg);
 }
 
 #img8 {
-    background-image: url(/img/vitoria.jpg);
+    background-image: url(../img/vitoria.jpg);
 }
 
 #container-galeria h1 {
@@ -205,12 +205,20 @@ p > a:hover {
 }
 
 .text {
-    width: 1000px;
+    width: 90%;
     margin: 0 auto;
 }
 
 .text > p {
     text-align: justify;
+}
+
+.finalzin {
+    padding-bottom: 20px;
+}
+
+.finalzin a:hover {
+    color: #b18611;
 }
 
 /* Form */
@@ -233,7 +241,7 @@ input, textarea {
 }
 
 .galeria-default img {
-    width: 1000px;
+    width: 90%;
     margin-bottom: 20px;
 
     border: 1px solid grey;
