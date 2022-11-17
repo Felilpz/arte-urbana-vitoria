@@ -204,6 +204,15 @@ p > a:hover {
     background-image: linear-gradient(to left, grey, lightgrey);
 }
 
+.text {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.text > p {
+    text-align: justify;
+}
+
 /* Form */
 form {
     text-align: center;
@@ -224,8 +233,11 @@ input, textarea {
 }
 
 .galeria-default img {
-    width: 70%;
+    width: 1000px;
     margin-bottom: 20px;
+
+    border: 1px solid grey;
+    border-radius: 5px;
 }
 
 /* Maria ortiz */
@@ -236,3 +248,4 @@ input, textarea {
 .mbottom {
     width: 80%;
 }
+
